@@ -1,1 +1,27 @@
 git status
+-> Check status of folder
+
+git init
+-> Initialize the folder to work with git
+
+git remote add origin https://github.com/Sufiyaan99/github-practice.git
+-> connect the local folder with github repo
+
+$ git remote -v
+origin  https://github.com/Sufiyaan99/github-practice.git (fetch)
+-> check whether it is connected to which repo and which user
+
+$ git remote set-url origin https://github.com/Sufiyan75/git-practice.git
+->Optional, if you want to set another github repo
+
+git status
+-> Check status of folder
+
+git add . or git add "filename"
+-> Add all files to git and they are ready to be commit
+
+git commit -m "<commit name>"
+-> Commit the files means they are ready to be pushed to repo
+
+git push origin <branch name>
+-> Push means to upload the files to repo, After this files are seen in repo
